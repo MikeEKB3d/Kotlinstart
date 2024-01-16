@@ -1,5 +1,5 @@
 package org.example.lesson_1
 
 fun main() {
-    println( "Это решение задачи 1 из урока 1")
+    println( "Это решение задачи 1 из  1 урока ")
 }
