@@ -3,5 +3,5 @@ package org.example.lesson_1
 fun main() {
     println( "Это решение задачи 1 из  1 урока ")
 }
-var numberOfOrders = 75
+val numberOfOrders = 75
 val gratitudeText = "Спасибо за покупку, Ваш промокод на следующий заказ 23235"
