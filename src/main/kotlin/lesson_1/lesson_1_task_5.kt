@@ -1,15 +1,13 @@
 fun main(){
 
-    var timeGagarin: String = "6480"
- timeGagarin = "01"
-    val timeGagarinMinute: String = ":48"
-    val timeGagarinSecond: String = ":00"
+    val timeGagarin= 6480
+    val timeGagarinMinuteAll  = timeGagarin / 60
+    val timeGagarinMinute = timeGagarinMinuteAll % 60
+    val timeGagarinHour = timeGagarinMinuteAll / 60
+    val timeGagarinSecond = timeGagarin % 60
 
 
-    print(timeGagarin)
-    print(timeGagarinMinute)
-    print(timeGagarinSecond)
-
+    print("0$timeGagarinHour:$timeGagarinMinute:0$timeGagarinSecond")
 
 
 }
