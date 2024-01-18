@@ -6,10 +6,9 @@ fun main(){
     //println(hour)
     //println(minute)
 
-     hour = "10:"
+     hour = "10"
     minute = "55"
-    print(hour)
-    println(minute)
+    print("$hour:$minute")
 
 
 }
