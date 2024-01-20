@@ -4,16 +4,14 @@ fun main() {
     val timeHour = 9
     val timeMinute = 39
     val arriveTimeMinute = 457
+    val time = 60
 
-    val arriveTimeHour = arriveTimeMinute / 60
-    //println(arriveTimeHour)
-    //  val arriveTimeMinuteEnd = arriveTimeMinute % 60
-    //println(arriveTimeMinuteEnd)
-    val timeEndMinuteAll = (timeHour * 60) + timeMinute + arriveTimeMinute
-    //println(timeEndMinuteAll)
-    val timeEndHour = timeEndMinuteAll / 60
-    //println(timeEndHour)
-    val timeEndMinute = timeEndMinuteAll % 60
-    //println(timeEndMinute)
+
+    val timeEndMinuteAll = (timeHour * time) + timeMinute + arriveTimeMinute
+
+    val timeEndHour = timeEndMinuteAll / time
+
+    val timeEndMinute = timeEndMinuteAll % time
+
     println("$timeEndHour:$timeEndMinute")
 }
