@@ -1,4 +1,3 @@
-package org.example.lesson_2
 
 fun main() {
     val baff: Double = 0.2
