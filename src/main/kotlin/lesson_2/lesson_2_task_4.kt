@@ -12,4 +12,5 @@ fun main() {
 
     println(cristRud + space + String.format("%.0f", cristalBonus))
     println(ironRud + space + String.format("%.0f", ironBonus))
+
 }
